@@ -41,12 +41,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Complementares\Exe01_ImprimeTriangulo.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Complementares\Exe02_ImprimeVariosTriangulos.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Complementares\Exe03_SerieFibonacci.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Complementares\Exe04_Menu.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Logica\Exe04_ImprimeNome.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Logica\Exe05_ImprimeNumeros.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Logica\Exe06_ImprimePadrao1.cs" />
+    <Compile Include="Exercicios_de_Fixacao\Logica\Exe07_ImprimePadrao2.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
