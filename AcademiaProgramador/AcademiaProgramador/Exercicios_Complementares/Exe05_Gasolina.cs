@@ -41,12 +41,12 @@ namespace AcademiaProgramador.Exercicios_Complementares
 
                 if (qtdLitros <= 20)
                 {
-                    alcVinte = ((2.90 * 0.03) + 2.90 * qtdLitros);
+                    alcVinte = ( 2.90 * qtdLitros - (2.90 * 0.03));
                     Console.WriteLine("Preco: " + alcVinte);
                 }
                 else
                 {
-                    alcMaiorVinte = ((2.90 * 0.05) + 2.90 * qtdLitros);
+                    alcMaiorVinte = (2.90 * qtdLitros - (2.90 * 0.05));
                     Console.WriteLine("Preco: " + alcMaiorVinte);
                 }
             }
@@ -56,12 +56,12 @@ namespace AcademiaProgramador.Exercicios_Complementares
                 qtdLitros = double.Parse(Console.ReadLine());
                 if (qtdLitros <= 20)
                 {
-                    gasVinte = ((3.30 * 0.04) + 3.30 * qtdLitros);
+                    gasVinte = (3.30 * qtdLitros - (3.30 * 0.04));
                     Console.WriteLine("Preco" + gasVinte);
                 }
                 else
                 {
-                    gasMaiorVinte = ((3.30 * 0.06) + 3.30 * qtdLitros);
+                    gasMaiorVinte = (3.30 * qtdLitros - (3.30 * 0.06));
                     Console.WriteLine("Preco: " + gasMaiorVinte);
                 }
 
