@@ -20,7 +20,7 @@ namespace AcademiaProgramador.Exercicios_Complementares
         (codificado da seguinte forma: A-álcool, G-gasolina), calcule e imprima o valor a 
         ser pago pelo cliente sabendo-se que o preço do litro da gasolina é R$ 3,30 e o preço do litro do álcool é R$ 2,90.*/
 
-        public static void Main(string[] args)
+        public static void Main5(string[] args)
         {
             string opcao;
 
