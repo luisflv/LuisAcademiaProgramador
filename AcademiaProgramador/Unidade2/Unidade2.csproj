@@ -41,9 +41,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\CartaoDeCredito.cs" />
-    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Cliente.cs" />
-    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\TesteCliente.cs" />
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Exercicios_Fixacao\Agencia.cs" />
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Exercicios_Complementares\Aluno.cs" />
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Exercicios_Fixacao\CartaoDeCredito.cs" />
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Exercicios_Fixacao\Cliente.cs" />
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Exercicios_Fixacao\Conta.cs" />
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Exercicios_Fixacao\TesteCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
