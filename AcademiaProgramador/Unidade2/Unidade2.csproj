@@ -41,6 +41,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\CartaoDeCredito.cs" />
     <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\Cliente.cs" />
     <Compile Include="Exercicios_Fixacao\Orientacao_a_Objetos\TesteCliente.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
